@@ -1,0 +1,67 @@
+.item {
+  box-sizing: border-box;
+  padding: 1rem;
+  width: auto;
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 1fr 39.5rem 1fr;
+  background: var(--base-200);
+  border-radius: 8px;
+  color: var(--linha-100);
+}
+
+.item + .item {
+  margin-top: 0.75rem;
+}
+
+.item > button {
+  border: none;
+  background: transparent;
+  width: 1rem;
+  cursor: pointer;
+} 
+
+.checkboxcontainer {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.checkboxcontainer input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 2px solid var(--prod-400);
+  background-color: var(--base-200);
+  border-radius: 12px;
+}
+
+
+.checkboxcontainer input[type="checkbox"]:checked ~ .checkmark {
+  background-color: var(--prod-400);
+}
+
+.checkboxcontainer .checkmark:after {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 14px;
+  color: var(--base-200);
+  position: absolute;
+  top: -2px;
+  left: 3px;
+}
+
+.checkboxcontainer input[type="checkbox"]:checked ~ .checkmark:after {
+  content: "\2713";
+  color: var(--linha-100);
+}

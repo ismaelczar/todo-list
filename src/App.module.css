@@ -1,0 +1,7 @@
+.wapper {
+  display: grid;
+  grid-template-columns: 46rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

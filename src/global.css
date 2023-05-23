@@ -1,0 +1,37 @@
+:root {
+  --prod-200:#1E6F9F;
+  --prod-300:#4EA8DE;
+  --prod-400:#5E60CE;
+  --prod-500:#8284FA;
+
+  --base-100:#808080;
+  --base-200:#333333;
+  --base-300:#262626;
+  --base-400:#1A1A1A;
+  --base-500:#0D0D0D;
+
+  --linha-100:#F2F2F2;
+  --linha-200:#D9D9D9;
+
+  -feedback:#E25858;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--base-400);
+  color: var(--base-100);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input,textarea,button {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+
+}

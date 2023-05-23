@@ -1,0 +1,8 @@
+.header {
+  background: var(--base-500);
+  height: 200px;
+  width: auto;
+  text-align: center;
+  padding: 4.5rem 0 5rem 0;
+}
+
