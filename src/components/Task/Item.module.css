@@ -1,3 +1,5 @@
+
+
 .item {
   box-sizing: border-box;
   padding: 1rem;
@@ -8,6 +10,7 @@
   background: var(--base-200);
   border-radius: 8px;
   color: var(--linha-100);
+  
 }
 
 .item + .item {
@@ -64,4 +67,33 @@
 .checkboxcontainer input[type="checkbox"]:checked ~ .checkmark:after {
   content: "\2713";
   color: var(--linha-100);
+}
+
+@media (max-width: 400px){
+  .item {
+    box-sizing: border-box;
+    padding: 1rem;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+    background: var(--base-200);
+    border-radius: 8px;
+    color: var(--linha-100);
+    
+  }
+
+  .checkmark {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid var(--prod-400);
+    background-color: var(--base-200);
+    border-radius: 12px;
+  }
 }

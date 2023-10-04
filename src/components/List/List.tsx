@@ -66,7 +66,7 @@ export function List() {
   }
 
   return (
-    <form onSubmit={hundleSubmitForm}>
+    <form onSubmit={hundleSubmitForm} className={styles.form}>
       <div className={styles.submitList}>
         <textarea
           name="comment"

@@ -70,3 +70,53 @@
   font-size: 1.5rem;
   padding: 2rem 0;
 }
+
+@media  (max-width: 400px) {
+  .submitList>textarea {
+    border: none;
+    background: var(--base-300);
+    color: var(--linha-100);
+    font-size: 1rem;
+    width: 275px;
+    
+    border-radius: 8px;
+    outline: 1px solid var(--base-400);
+    resize: none;  
+  }
+
+  .submitList>button {
+    border-radius: 8px;
+    background: var(--prod-200);
+    color: var(--linha-100);
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    padding: 0.5rem;
+  }
+
+  .submitList {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  
+  }
+
+  .defaultValueTask {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .form {
+    max-width: auto;
+  }
+
+  
+}

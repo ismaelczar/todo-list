@@ -10,13 +10,13 @@ Você pode acessar os arquivos do projeto clicando [aqui](https://ismaelczar.git
 
 Desktop
 <p >
-  <img src='./utils/desktop-screenshot.png' width="75%">
+  <img src='./public/desktop-screenshot.png' width="75%">
 </p>
 
 Mobile
 <p >
-  <img src='./utils/mobile-screenshot-1.png' width="35%">
-  <img src='./utils/mobile-screenshot-2.png' width="35%">
+  <img src='./public/mobile-screenshot-1.png' width="35%">
+  <img src='./public/mobile-screenshot-2.png' width="35%">
 </p>
 
 
