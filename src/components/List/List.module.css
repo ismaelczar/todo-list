@@ -59,3 +59,14 @@
 .endTask {
   color: var(--prod-500);
 }
+
+
+.defaultValueTask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}

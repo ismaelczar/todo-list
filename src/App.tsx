@@ -1,7 +1,7 @@
-import { Header } from './components/Header/Header';
-import { List } from './components/List/List';
+import { Header } from './components/Header/Header'
+import { List } from './components/List/List'
 
-import './global.css';
+import './global.css'
 import styles from './App.module.css'
 
 export function App() {
@@ -16,5 +16,3 @@ export function App() {
     </>
   )
 }
-
-
